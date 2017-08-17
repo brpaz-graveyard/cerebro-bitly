@@ -1,0 +1,32 @@
+{
+  "name": "cerebro-bitly",
+  "description": "Cerebro plugin for generating short urls using bit.ly",
+  "author": {
+    "name": "Bruno Paz",
+    "email": "brunopaz@sapo.pt",
+    "url": "http://brunopaz.net"
+  },
+  "repository": {
+    "url": "https://github.com/brpaz/cerebro-bitly"
+  },
+  "version": "0.1.0",
+  "dependencies": {
+    "bitlyapi": "^1.0.9",
+    "cerebro-tools": "^0.1.8",
+    "cerebro-ui": "^0.0.16",
+    "is-url": "^1.2.2"
+  },
+  "devDependencies": {
+    "cerebro-scripts": "0.0.19"
+  },
+  "main": "dist/index.js",
+  "keywords": [
+    "cerebro",
+    "cerebro-plugin"
+  ],
+  "scripts": {
+    "start": "cerebro-scripts start",
+    "build": "cerebro-scripts build",
+    "test": "cerebro-scripts test"
+  }
+}

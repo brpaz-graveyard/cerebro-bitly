@@ -1,0 +1,6 @@
+src
+node_modules
+screenshot.png
+yarn.lock
+.history
+.editorconfig
